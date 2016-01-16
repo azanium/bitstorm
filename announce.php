@@ -195,12 +195,12 @@ function valdata($g, $fixed_size=false) {
 		die(track('Request too long'));
 	}
 }
-
+/*
 function hex2bin($hex) {
 	$r = '';
 	for ($i=0; $i < strlen($hex); $i+=2) {
 		$r .= chr(hexdec($hex{$i}.$hex{($i+1)}));
 	}
 	return $r;
-}
+}*/
 ?>
